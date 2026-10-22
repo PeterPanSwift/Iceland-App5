@@ -1,0 +1,16 @@
+name: Verify Xcode 27 Environment
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/environment.yml'
+jobs:
+  inspect:
+    runs-on: xcode-27
+    timeout-minutes: 10
+    steps:
+      - run: |
+          xcodebuild -version
+          xcrun simctl list devices available
+          command -v xcodegen || true
+          command -v ffmpeg || true
