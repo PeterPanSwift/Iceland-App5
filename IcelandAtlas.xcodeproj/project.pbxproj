@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202DBBCDBBA4DAD27CFD9E36 /* JourneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9624204380EFEDE03D9DAC /* JourneyView.swift */; };
+		6CE8DC07613FCDAA415D302F /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E2D611C4F947344411E258 /* ExploreView.swift */; };
+		8F67EAE3B5AE073739B9DD8F /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A349AF74B9FCE514626DC63D /* Destination.swift */; };
+		AC3DA54D0E07F90801EBE6F7 /* IcelandAtlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D616BE811271A242653064BF /* IcelandAtlasApp.swift */; };
+		AD437549B27AC9DD7965D9DA /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04506923A1BC3BF596044E /* DemoTests.swift */; };
+		B2E64652434A10BE65AB29DE /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA307A6F07FEAEC2B9535201 /* SavedView.swift */; };
+		C51E7F41300B78E0915981D0 /* FieldGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AE41AE66EACA7636B598A5 /* FieldGuideView.swift */; };
+		DD70A9692984C05D81570240 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A87478D0EBBF6B80FD1A5A /* Components.swift */; };
+		EEC586FEA6A8C67402A7A8AE /* DestinationDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2C9CC1AB474F58B40B8C35 /* DestinationDetail.swift */; };
+		F76847E350CB25D8EF62B42D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43E4A9184015E2A720D2605 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B739AD2631DB8ED7E159BF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B03EEF3CC086B8E7C4A8E081 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE36FEC322B1BF147F8B3DC;
+			remoteInfo = IcelandAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A2C9CC1AB474F58B40B8C35 /* DestinationDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDetail.swift; sourceTree = "<group>"; };
+		3A9624204380EFEDE03D9DAC /* JourneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyView.swift; sourceTree = "<group>"; };
+		56AE41AE66EACA7636B598A5 /* FieldGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldGuideView.swift; sourceTree = "<group>"; };
+		7009D39B618186F71B59D5B7 /* IcelandAtlas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IcelandAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E2D611C4F947344411E258 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A349AF74B9FCE514626DC63D /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		B43E4A9184015E2A720D2605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6CFD76F6677F6984C8E3E3A /* IcelandAtlasUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = IcelandAtlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA307A6F07FEAEC2B9535201 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		CC04506923A1BC3BF596044E /* DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTests.swift; sourceTree = "<group>"; };
+		D616BE811271A242653064BF /* IcelandAtlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcelandAtlasApp.swift; sourceTree = "<group>"; };
+		E3A87478D0EBBF6B80FD1A5A /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		17B53A1594348E78B4B5F539 /* IcelandAtlasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC04506923A1BC3BF596044E /* DemoTests.swift */,
+			);
+			path = IcelandAtlasUITests;
+			sourceTree = "<group>";
+		};
+		786D0FD2DB42F4AC18961A3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7009D39B618186F71B59D5B7 /* IcelandAtlas.app */,
+				C6CFD76F6677F6984C8E3E3A /* IcelandAtlasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6D3E3E9A056A240DD8B7C1 /* IcelandAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				B43E4A9184015E2A720D2605 /* Assets.xcassets */,
+				E3A87478D0EBBF6B80FD1A5A /* Components.swift */,
+				A349AF74B9FCE514626DC63D /* Destination.swift */,
+				2A2C9CC1AB474F58B40B8C35 /* DestinationDetail.swift */,
+				93E2D611C4F947344411E258 /* ExploreView.swift */,
+				56AE41AE66EACA7636B598A5 /* FieldGuideView.swift */,
+				D616BE811271A242653064BF /* IcelandAtlasApp.swift */,
+				3A9624204380EFEDE03D9DAC /* JourneyView.swift */,
+				CA307A6F07FEAEC2B9535201 /* SavedView.swift */,
+			);
+			path = IcelandAtlas;
+			sourceTree = "<group>";
+		};
+		EC5DB2A79E3F234A1F55770C = {
+			isa = PBXGroup;
+			children = (
+				7F6D3E3E9A056A240DD8B7C1 /* IcelandAtlas */,
+				17B53A1594348E78B4B5F539 /* IcelandAtlasUITests */,
+				786D0FD2DB42F4AC18961A3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		239162A0E6373FD439306F8B /* IcelandAtlasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E117EE29A3F18C79308B61C0 /* Build configuration list for PBXNativeTarget "IcelandAtlasUITests" */;
+			buildPhases = (
+				3A3EB5CFB268EFC76ACA6A8A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC92E4EA87EC6DC468735A3 /* PBXTargetDependency */,
+			);
+			name = IcelandAtlasUITests;
+			packageProductDependencies = (
+			);
+			productName = IcelandAtlasUITests;
+			productReference = C6CFD76F6677F6984C8E3E3A /* IcelandAtlasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2EE36FEC322B1BF147F8B3DC /* IcelandAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA89EF0E82F9A7291B384DE /* Build configuration list for PBXNativeTarget "IcelandAtlas" */;
+			buildPhases = (
+				9EE47D0694E1E65E17E3E68C /* Sources */,
+				1052905BFBC8302DE6DB8C77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IcelandAtlas;
+			packageProductDependencies = (
+			);
+			productName = IcelandAtlas;
+			productReference = 7009D39B618186F71B59D5B7 /* IcelandAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B03EEF3CC086B8E7C4A8E081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					239162A0E6373FD439306F8B = {
+						TestTargetID = 2EE36FEC322B1BF147F8B3DC;
+					};
+				};
+			};
+			buildConfigurationList = 530B8069F2F9775F8E17E039 /* Build configuration list for PBXProject "IcelandAtlas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EC5DB2A79E3F234A1F55770C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 786D0FD2DB42F4AC18961A3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE36FEC322B1BF147F8B3DC /* IcelandAtlas */,
+				239162A0E6373FD439306F8B /* IcelandAtlasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1052905BFBC8302DE6DB8C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76847E350CB25D8EF62B42D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3EB5CFB268EFC76ACA6A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD437549B27AC9DD7965D9DA /* DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE47D0694E1E65E17E3E68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD70A9692984C05D81570240 /* Components.swift in Sources */,
+				8F67EAE3B5AE073739B9DD8F /* Destination.swift in Sources */,
+				EEC586FEA6A8C67402A7A8AE /* DestinationDetail.swift in Sources */,
+				6CE8DC07613FCDAA415D302F /* ExploreView.swift in Sources */,
+				C51E7F41300B78E0915981D0 /* FieldGuideView.swift in Sources */,
+				AC3DA54D0E07F90801EBE6F7 /* IcelandAtlasApp.swift in Sources */,
+				202DBBCDBBA4DAD27CFD9E36 /* JourneyView.swift in Sources */,
+				B2E64652434A10BE65AB29DE /* SavedView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC92E4EA87EC6DC468735A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE36FEC322B1BF147F8B3DC /* IcelandAtlas */;
+			targetProxy = 1B739AD2631DB8ED7E159BF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		36F08F72D2B37DA1EF466653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		57B64E9FE89C17242A4CAE26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterpanswift.IcelandAtlasUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IcelandAtlas;
+			};
+			name = Debug;
+		};
+		73034AB0A00B47ABA8E7185D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ísland 冰島";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterpanswift.IcelandAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		778CC439462C022A39957638 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ísland 冰島";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterpanswift.IcelandAtlas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		934D76B1D183BFB030F0102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AB7E38E73B767D089BF0D294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.peterpanswift.IcelandAtlasUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IcelandAtlas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		530B8069F2F9775F8E17E039 /* Build configuration list for PBXProject "IcelandAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934D76B1D183BFB030F0102A /* Debug */,
+				36F08F72D2B37DA1EF466653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEA89EF0E82F9A7291B384DE /* Build configuration list for PBXNativeTarget "IcelandAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73034AB0A00B47ABA8E7185D /* Debug */,
+				778CC439462C022A39957638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E117EE29A3F18C79308B61C0 /* Build configuration list for PBXNativeTarget "IcelandAtlasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B64E9FE89C17242A4CAE26 /* Debug */,
+				AB7E38E73B767D089BF0D294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B03EEF3CC086B8E7C4A8E081 /* Project object */;
+}

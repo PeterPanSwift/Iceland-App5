@@ -35,8 +35,9 @@ wait "$RECORD_PID" || true
 trap - EXIT
 xcrun xcresulttool export attachments --path media/Demo.xcresult --output-path media/attachments
 if [ "$TEST_EXIT" -ne 0 ]; then tail -120 media/demo-test.log; exit "$TEST_EXIT"; fi
+ffprobe -v quiet -show_format -of json media/raw-demo.mp4 > media/raw-video-metadata.json
 python3 - <<'PY'
-import re,json,pathlib
+import re,json,pathlib,datetime
 log=pathlib.Path('media/demo-test.log').read_text()
 start=re.findall(r'DEMO_START_EPOCH=([0-9.]+)',log)
 end=re.findall(r'DEMO_END_EPOCH=([0-9.]+)',log)
@@ -51,8 +52,12 @@ else:
                 if isinstance(v,dict) and 'start' in v and 'end' in v:timing=v
             except Exception:pass
     if not timing:raise RuntimeError('Missing exact demo timing; refusing to deliver untrimmed recording')
-recording=float(pathlib.Path('media/recording-start.txt').read_text())
-pathlib.Path('media/trim.txt').write_text(f"{max(0,timing['start']-recording):.3f} {timing['end']-timing['start']:.3f}")
+# simctl may take several seconds to begin capturing. The movie's actual
+# creation time is more accurate than the shell command's invocation time.
+metadata=json.loads(pathlib.Path('media/raw-video-metadata.json').read_text())
+created=metadata['format']['tags']['creation_time']
+recording=datetime.datetime.fromisoformat(created.replace('Z','+00:00')).timestamp()
+pathlib.Path('media/trim.txt').write_text(f"{max(0,timing['start']-recording):.3f} {max(0,timing['end']-timing['start']-1):.3f}")
 PY
 read -r TRIM_START TRIM_LENGTH < media/trim.txt || true
 ffmpeg -y -ss "$TRIM_START" -i media/raw-demo.mp4 -t "$TRIM_LENGTH" -vf 'scale=886:-2' -r 30 -c:v libx264 -preset medium -crf 24 -pix_fmt yuv420p -an -movflags +faststart media/Iceland-App-Demo.mp4 > media/compression.log 2>&1
@@ -63,4 +68,4 @@ VERIFY_EXIT=$?
 set -e
 ditto -c -k --sequesterRsrc --keepParent DerivedData/Build/Products/Debug-iphonesimulator/IcelandAtlas.app media/IcelandAtlas-Simulator.app.zip
 if [ "$VERIFY_EXIT" -ne 0 ]; then tail -100 media/validation.log; exit "$VERIFY_EXIT"; fi
-rm media/raw-demo.mp4
+# Retain the original recording in the artifact for frame-level review.

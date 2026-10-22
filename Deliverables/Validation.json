@@ -1,0 +1,18 @@
+{
+  "repository": "PeterPanSwift/Iceland-App5",
+  "validated_commit": "239d482b5412f68e018cd188c582dac3b57d8fe7",
+  "workflow_run": "https://github.com/PeterPanSwift/Iceland-App5/actions/runs/39787499283",
+  "xcode": "27.0 (27A266a)",
+  "device": "iPhone 18 Pro Max",
+  "iOS": "27.0",
+  "screenshot_size": [
+    1320,
+    2868
+  ],
+  "screenshots": 6,
+  "tests": [
+    "testRecordTravelExperience passed",
+    "testSearchAndPersistence passed"
+  ],
+  "video_note": "Final delivery manually removes simulator Home Screen at the end of the workflow recording."
+}
